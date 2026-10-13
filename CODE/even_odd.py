@@ -1,9 +1,9 @@
-def odd_even(n):
+def even_odd(n):
     if n % 2 == 0:
         return "Even"
     
     else:
         return "Odd"
 
-print(odd_even(4)) 
-print(odd_even(7))
+print(even_odd(4)) 
+print(even_odd(7))
