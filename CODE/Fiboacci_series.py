@@ -1,5 +1,5 @@
 
-def fibonacci(num):
+def fibonacci_series(num):
     a = 0
     b = 1
     series = []
@@ -10,5 +10,5 @@ def fibonacci(num):
         b = c
     return series
 
-print(fibonacci(5))
-print(fibonacci(7))
+print(fibonacci_series(5))
+print(fibonacci_series(7))
